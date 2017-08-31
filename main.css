@@ -6,6 +6,7 @@ body {
   height: 100vh;
   background: url(assets/freedom.jpg) no-repeat center/cover;
   text-align: center;
+  line-height: 1.5;
 }
 .wrapper {
   width: 100%;
@@ -15,4 +16,15 @@ body {
 }
 .quote, .author {
   margin: auto;
+}
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 3rem;
+  padding: 5rem 7rem 1rem;
+}
+.author {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 0;
 }
