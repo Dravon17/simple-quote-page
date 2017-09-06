@@ -92,3 +92,21 @@ a:hover {
   background-color: rgba(255,255,255,.9);
   border-color: rgba(0,0,0,.9);
 }
+@media (min-width: 768px) {
+  nav {
+    padding: 1.5rem;
+    padding-top: 0;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  nav {
+    margin-bottom: 3rem;
+  }
+}
